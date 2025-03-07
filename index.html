@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>магазин поняшек</title>
+</head>
+<body>
+<header>
+    <h1>Добро пожаловать в магазин поняшек</h1>
+    <nav>
+        <ul>
+            <li><a href="#home">Главная</a></li>
+            <li><a href="#products">Поняшки</a></li>
+            <li><a href="#about">О нас с поняшками</a></li>
+            <li><a href="#contact">Контакты</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section>
+    <h2>Промо-видео о поняшках</h2>
+    <video controls width="600" height="400">
+        <source src="promo-video.mp4" type="video/mp4">
+    </video>
+</section>
+
+<section>
+    <h2>наши поняшки</h2>
+    <article>
+        <h3>Поняша 1</h3>
+        <img src="images/pony1.jpg" alt="Описание товара 1" width="200" height="200">
+        <p>очень крутая поняха</p>
+    </article>
+    <article>
+        <h3>Поняха 2</h3>
+        <img src="images/pony2.jpg" alt="Описание товара 2" width="200" height="200">
+        <p>поняшка покруче</p>
+    </article>
+
+    <table>
+        <caption>Список товаров</caption>
+        <thead>
+            <tr>
+                <th>Название</th>
+                <th>Цена</th>
+                <th>Описание</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Поняша 1</td>
+                <td>1000 руб.</td>
+                <td>Ооч крутая поняха</td>
+            </tr>
+            <tr>
+                <td>Поняха 2</td>
+                <td>2000 руб.</td>
+                <td>ну прям крутая поняха</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<section>
+    <h2>приветствие наших понях</h2>
+    <audio controls>
+        <source src="greeting.mp3" type="audio/mpeg">
+    </audio>
+</section>
+
+<section>
+    <h2>Обратная связь</h2>
+    <form action="#" method="post">
+        <label for="name">Ваше имя:</label>
+        <input type="text" name="name" required>
+
+        <label for="email">Электронная почта:</label>
+        <input type="email" name="email" required>
+
+        <label for="category">Категория запроса:</label>
+        <select name="category">
+            <option value="order">Заказ</option>
+            <option value="support">Поддержка</option>
+            <option value="other">Другое</option>
+        </select>
+
+        <label for="message">Сообщение:</label>
+        <textarea name="message" rows="4" required></textarea>
+
+        <button type="submit">Отправить</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2025 Магазин самых крутых понях. Все права защищены.</p>
+</footer>
+
+</body>
+</html>
